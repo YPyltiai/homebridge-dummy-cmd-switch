@@ -1,0 +1,22 @@
+{
+  "displayName": "Homebridge Dummy Cmd Switch",
+  "name": "homebridge-dummy-cmd-switch",
+  "version": "0.1.0",
+  "description": "Homebridge plugin to create momentary dummy switch to run command line commands.",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "author": "YPyltiai",
+  "homepage": "https://github.com/YPyltiai/homebridge-dummy-cmd-switch",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YPyltiai/homebridge-dummy-cmd-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YPyltiai/homebridge-dummy-cmd-switch/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "homebridge": "^1.8.0"
+  }
+}

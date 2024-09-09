@@ -1,0 +1,20 @@
+{
+    "pluginAlias": "DummyCmdSwitch",
+    "pluginType": "accessory",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "commandOn": {
+                "type": "string",
+                "description": "The shell command to be executed when the switch is turned on.",
+                "required": true
+            }
+        }
+    }
+}
