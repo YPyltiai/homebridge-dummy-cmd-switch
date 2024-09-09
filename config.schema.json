@@ -1,0 +1,33 @@
+{
+  "pluginAlias": "DummyCmdSwitch",
+  "pluginType": "accessory",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "description": "Name of the switch accessory."
+      },
+      "commandOn": {
+        "title": "Command On",
+        "type": "string",
+        "required": true,
+        "description": "Shell command to execute when the switch is turned on."
+      },
+      "delayOn": {
+        "title": "Delay On",
+        "type": "number",
+        "default": 1000,
+        "description": "Delay in milliseconds before executing the 'commandOn' after the switch is turned on."
+      },
+      "delayOff": {
+        "title": "Delay Off",
+        "type": "number",
+        "default": 1000,
+        "description": "Delay in milliseconds before resetting the switch to off after executing the 'commandOn'."
+      }
+    }
+  }
+}
