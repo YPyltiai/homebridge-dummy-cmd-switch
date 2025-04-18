@@ -1,7 +1,7 @@
 # Dummy Switch to Run Command Line Commands
 
-![npm version](https://badge.fury.io/js/homebridge-dummy-cmd-switch.svg)
-![npm downloads](https://img.shields.io/npm/dm/homebridge-dummy-cmd-switch.svg)
+![NPM Version](https://img.shields.io/npm/v/homebridge-dummy-cmd-switch?color=brightgreen)
+![NPM Downloads](https://img.shields.io/npm/d18m/homebridge-dummy-cmd-switch)
 
 A Homebridge plugin that allows you to create momentary switches executing custom command line commands with configurable delays.
 
